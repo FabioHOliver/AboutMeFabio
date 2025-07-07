@@ -1,0 +1,83 @@
+/* Toda parte de estilização e como será visto por quem utilizar */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+}
+
+header {
+  background-color: #222;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+}
+.gif-de-pagina {
+  display: block;
+  max-width: 350px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+body.pagina-home {
+  background-color: #ffe0f0;
+}
+
+body.pagina-sobre {
+  background-color: #fff0f5;
+}
+
+body.pagina-formacao {
+  background-color: #fbe4f0;
+}
+
+body.pagina-portfolio {
+  background-color: #ffe8f8;
+}
+
+body.pagina-contato {
+  background-color: #fcd6ea;
+}
+body {
+  transition: background-color 0.4s ease-in-out;
+}
+main {
+  max-width: 800px;
+  margin: 40px auto; /* centraliza e dá espaço em cima/embaixo */
+  padding: 20px;
+  background-color: #fcd6ea;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
